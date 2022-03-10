@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="container mx-auto rounded-b">
+        <nav class="flex flex-row justify-between bg-lime-500 h-16 rounded-b fixed top-0 left-0 right-0 container mx-auto mb-20 z-10">
+            <div class="flex justify-center ml-10">
+                <img src="/img/logo.svg" class="w-12 justify-center">
+            </div>
+            <div class="flex items-center">
+                <input type="text" placeholder="Cari barangmu disini" class="fontfa outline-none border-2 rounded py-0.5 pl-2 pr-5 mr-2" >
+                <button type="button" class="rounded bg-cyan-500 text-white px-2 py-1 outline-none fontfa">Search</button>
+            </div>
+            <div class="flex justify-center mr-12 text-white fontfa items-center ">
+                <a href="#" class="ml-4 text-center font-bold">Menu</a>
+                <a href="#" class="ml-4">Store</a>
+                <a href="#" class="ml-4">Contact</a>
+                <a href="#" class="ml-4 flex items-center bg-cyan-500 rounded px-2 py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-4 inline-block mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    Cart(0)
+                </a>
+                <div>
+                    <i class="far fa-envelope ml-4 h-4 w-4 inline-block relative"></i>
+                    <p class="bg-red-500 h-2 w-2 rounded-full absolute top-5 right-444 py-1 px-1 md:bg-red-500"></p>
+                </div>
+                <div>
+                    <i class="fas fa-bell ml-4 h-4 w-4 inline-block relative"></i>
+                    <p class="bg-red-500 h-2 w-2 rounded-full absolute top-5 right-445 py-1 px-1"></p>
+                </div>
+            </div>
+            
+        </nav>
+
+        <!-- landing page -->
+        <div class="bg-gradient-to-r from-black to-stone-900 h-96 mt-20 flex">
+            <div class="md:w-full w-0 h-full justify-center flex flex-col">
+                <h1 class="fontfa text-white text-3xl ml-12 mb-4 ">Make your life easier</h1>
+                <p class=" mx-12 text-white italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum eos exercitationem 
+                    aperiam sint.</p>
+            </div>
+            <div class="md:w-1/2 ">
+                <img src="/img/talent.png" class="w-446 float-right">
+            </div>
+            
+        </div>
+        <!-- landing page akhir-->
+        <!-- collection 1 -->
+        <div class="mt-10">
+            <div class="flex flex-row justify-between"> 
+                <h1 class="fontfa ml-5 text-2xl font-bold">Electronic</h1>
+                <a href="#" class="fontfa mr-5 text-2xl">View All</a>
+            </div>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 pb-24 pt-2 mx-auto">
+                  <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                      <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/img/electronic/Tv.jpg" alt="blog">
+                        <div class="p-6">
+                          <h1 class="title-font text-lg font-medium text-gray-900 mb-3"><a href="#">Monitor 75Hz auto</a></h1>
+                          <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                          <div class="flex items-center flex-wrap ">
+                            <a href="#" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                              </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                              </svg>22.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                              </svg>23
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/img/electronic/macbook.jpg" alt="blog">
+                          <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"><a href="#">Macbook Pro M1</a></h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap ">
+                              <a href="#" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                  <circle cx="12" cy="12" r="3"></circle>
+                                </svg>22.2K
+                              </span>
+                              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                </svg>23
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="/img/electronic/iphone.jpg" alt="blog">
+                          <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3"><a href="#">Iphone 13 Pro Max</a></h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap ">
+                              <a href="#" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M5 12h14"></path>
+                                  <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                              </a>
+                              <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                  <circle cx="12" cy="12" r="3"></circle>
+                                </svg>22.2K
+                              </span>
+                              <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                </svg>23
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </section>
+        </div>
+        <!-- collection 2 -->
+        
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    </div>
+</body>
+</html>
